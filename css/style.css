@@ -39,3 +39,36 @@ body {
 .carousel .btn {
     font-weight: 600;
 }
+
+.features h3 {
+    font-family: 'Lora';
+    font-weight: 700;
+    color: #1A258D;
+}
+
+.features p {
+    font-weight: 200;
+}
+
+figcaption h5 {
+    color: #171717;
+}
+
+.figure-img {
+    position: relative;
+}
+
+.figure-img:hover a {
+    opacity: 1;
+}
+
+.figure-img a {
+    position: absolute;
+    top: 0;
+    bottom: 8px;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
