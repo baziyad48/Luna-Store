@@ -38,14 +38,16 @@ body {
 }
 
 .features h3,
-.designer h3 {
+.designer h3,
+.similar-product h3 {
     font-family: 'Lora';
     font-weight: 700;
     color: #1A258D;
 }
 
 .features p,
-.designer p {
+.designer p,
+.similar-product p {
     font-weight: 200;
 }
 
@@ -153,7 +155,7 @@ footer p {
 
 .description .tab-content {
     font-weight: 200;
-    height: 200px;
+    height: 160px;
 }
 
 .description .tab-pane p.text-justify {
@@ -168,4 +170,15 @@ footer p {
 .review p {
     font-weight: 200;
     font-size: 14px;
+}
+
+.similar-product figure p {
+    font-weight: 200;
+    font-size: 16px;
+}
+
+.similar-product figure h6 {
+    font-weight: 600;
+    color: #171717;
+    font-size: 16px;
 }
