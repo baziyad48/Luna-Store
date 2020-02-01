@@ -96,7 +96,7 @@ footer p {
 .product-container {
     padding: 8px 8px;
     background-color: white;
-    box-shadow: 0 4px 3px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 1px rgba(0, 0, 0, 0.3);
     width: 360px;
     transform: translateY(-50px);
 }
@@ -140,5 +140,32 @@ footer p {
 }
 
 .product-designer .col p {
+    font-size: 14px;
+}
+
+.description .nav a {
+    font-weight: 600;
+}
+
+.description .nav-item span {
+    color: #1ABC9C !important;
+}
+
+.description .tab-content {
+    font-weight: 200;
+    height: 200px;
+}
+
+.description .tab-pane p.text-justify {
+    line-height: 28px;
+}
+
+.review h5 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.review p {
+    font-weight: 200;
     font-size: 14px;
 }
