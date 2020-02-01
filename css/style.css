@@ -11,15 +11,13 @@ body {
     font-weight: 200;
 }
 
-.nav-item.active a {
+.nav-item.active a,
+.nav-link span,
+    {
     color: #F9B234 !important;
     font-weight: 600;
 }
 
-.nav-link span {
-    color: #F9B234 !important;
-    font-weight: 600;
-}
 
 .carousel {
     height: 450px;
@@ -90,4 +88,58 @@ footer .nav a {
 
 footer p {
     font-weight: 200;
+}
+
+.breadcrumb {
+    margin-top: 100px;
+}
+
+.product-container {
+    padding: 8px 8px;
+    background-color: white;
+    box-shadow: 0 4px 3px rgba(0, 0, 0, 0.3);
+    width: 360px;
+    transform: translateY(-50px);
+}
+
+.product .btn-info {
+    background-color: #1ABC9C !important;
+}
+
+.product h3 {
+    font-weight: 600;
+}
+
+
+.product a.btn-warning {
+    color: white;
+    background-color: #F9B234 !important;
+    font-weight: 600;
+}
+
+.product a.btn-light {
+    background-color: #CDCDD1 !important;
+    font-weight: 200;
+}
+
+.product-cart {
+    margin: 30px 0;
+    border-bottom: 2px solid #CDCDD1;
+}
+
+.product-designer {
+    font-weight: 200;
+}
+
+.product-designer h6 {
+    font-size: 16px;
+}
+
+.product-designer .col h5 {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.product-designer .col p {
+    font-size: 14px;
 }
