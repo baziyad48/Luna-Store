@@ -39,7 +39,8 @@ body {
 
 .features h3,
 .designer h3,
-.similar-product h3 {
+.similar-product h3,
+.title h3 {
     font-family: 'Lora';
     font-weight: 700;
     color: #1A258D;
@@ -47,7 +48,9 @@ body {
 
 .features p,
 .designer p,
-.similar-product p {
+.similar-product p,
+.title p,
+.modal p {
     font-weight: 200;
 }
 
@@ -91,7 +94,7 @@ footer p {
     font-weight: 200;
 }
 
-.breadcrumb {
+.breadcrumb-single {
     margin-top: 100px;
 }
 
@@ -103,22 +106,26 @@ footer p {
     transform: translateY(-50px);
 }
 
-.product .btn-info {
+.product .btn-info,
+.quantity .card {
     background-color: #1ABC9C !important;
 }
 
-.product h3 {
+.product h3,
+.modal h3 {
     font-weight: 600;
 }
 
-
-.product a.btn-warning {
+.product a.btn-warning,
+.quantity .btn-warning,
+.modal .btn-warning {
     color: white;
     background-color: #F9B234 !important;
     font-weight: 600;
 }
 
-.product a.btn-light {
+.product a.btn-light,
+.quantity .btn-light {
     background-color: #CDCDD1 !important;
     font-weight: 200;
 }
@@ -181,4 +188,19 @@ footer p {
     font-weight: 600;
     color: #171717;
     font-size: 16px;
+}
+
+.quantity p {
+    font-weight: 200;
+}
+
+.quantity .btn-info {
+    background-color: #1ABC9C !important;
+}
+
+hr {
+    height: 1px;
+    color: white;
+    background-color: white;
+    border: none;
 }
