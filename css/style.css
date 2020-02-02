@@ -40,7 +40,8 @@ body {
 .features h3,
 .designer h3,
 .similar-product h3,
-.title h3 {
+.title h3,
+.category h3 {
     font-family: 'Lora';
     font-weight: 700;
     color: #1A258D;
@@ -50,7 +51,8 @@ body {
 .designer p,
 .similar-product p,
 .title p,
-.modal p {
+.modal p,
+.category p {
     font-weight: 200;
 }
 
@@ -107,7 +109,8 @@ footer p {
 }
 
 .product .btn-info,
-.quantity .card {
+.quantity .card,
+.quantity .btn-info {
     background-color: #1ABC9C !important;
 }
 
@@ -194,13 +197,19 @@ footer p {
     font-weight: 200;
 }
 
-.quantity .btn-info {
-    background-color: #1ABC9C !important;
-}
-
 hr {
     height: 1px;
     color: white;
     background-color: white;
     border: none;
+}
+
+.category {
+    margin-top: 100px;
+}
+
+.category .btn-info {
+    color: white;
+    background-color: #1ABC9C !important;
+    font-weight: 600;
 }
